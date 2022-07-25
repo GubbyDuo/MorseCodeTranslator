@@ -33,7 +33,7 @@ const morseCode = {
 
 textToMorse.addEventListener("click", () => {
     let translateString = [];
-    storedVal = topText.value.split("");
+    let storedVal = topText.value.split("");
 
     for (let x of storedVal) {
         if (x === " ") {
@@ -55,7 +55,7 @@ textToMorse.addEventListener("click", () => {
 
 morseToText.addEventListener("click", () => {
     let translateString = [];
-    storedVal = topText.value.split(" ");
+    let storedVal = topText.value.split(" ");
     console.log(storedVal);
 
     for (let x of storedVal) {

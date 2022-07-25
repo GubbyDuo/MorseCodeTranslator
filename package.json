@@ -1,0 +1,25 @@
+{
+    "name": "morsecodetranslatorgitrepo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/GubbyDuo/MorseCodeTranslator.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/GubbyDuo/MorseCodeTranslator/issues"
+    },
+    "homepage": "https://github.com/GubbyDuo/MorseCodeTranslator#readme",
+    "devDependencies": {
+        "@babel/core": "^7.18.9",
+        "@babel/preset-env": "^7.18.9",
+        "babel-jest": "^28.1.3",
+        "jest": "^28.1.3"
+    }
+}
