@@ -4,6 +4,7 @@ const textToMorse = document.getElementById("toMorseButton");
 const morseToText = document.getElementById("toTextButton");
 const topText = document.getElementById("topText");
 const bottomText = document.getElementById("bottomText");
+document.quer
 let morseResult = "";
 let textResult = "";
 
